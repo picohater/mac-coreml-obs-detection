@@ -1,32 +1,13 @@
+
 # ⚠️ Stalled ⚠️ This project is not under active development
 
 ## OBS Detect - Object Detection and Masking Filter
 
-<div align="center">
-
-[![GitHub](https://img.shields.io/github/license/occ-ai/obs-detect)](https://github.com/occ-ai/obs-detect/blob/main/LICENSE)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/occ-ai/obs-detect/push.yaml)](https://github.com/occ-ai/obs-detect/actions/workflows/push.yaml)
-[![Total downloads](https://img.shields.io/github/downloads/occ-ai/obs-detect/total)](https://github.com/occ-ai/obs-detect/releases)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/occ-ai/obs-detect)](https://github.com/occ-ai/obs-detect/releases)
-[![Discord](https://img.shields.io/discord/1200229425141252116)](https://discord.gg/KbjGU2vvUz)
-
-</div>
-
 A plugin for [OBS Studio](https://obsproject.com/) that allows you to detect many types of objects in any source, track them and apply masking.
-
-If you like this work, which is given to you completely free of charge, please consider supporting it by sponsoring us on GitHub:
-
-- https://github.com/sponsors/royshil
-- https://github.com/sponsors/umireon
 
 This work uses the great contributions from [EdgeYOLO-ROS](https://github.com/fateshelled/EdgeYOLO-ROS) and [PINTO-Model-Zoo](https://github.com/PINTO0309/PINTO_model_zoo). The Hungarian algorithm is taken from https://github.com/Gluttton/munkres-cpp under the GPLv2 license.
 
 ## Usage
-
-<div align="center">
-<a href="https://youtu.be/LrbUrvaGreQ"><img width="40%" src="https://github.com/occ-ai/obs-detect/assets/441170/b8e7367e-c1b0-4c7e-b0df-af45ead87199" /></a>&nbsp;
-<a href="https://youtu.be/zmdq1bPVYs0"><img width="40%" src="https://github.com/occ-ai/obs-detect/assets/441170/2eb08589-1695-4a40-877e-4985c2b5270f" /></a>
-</div>
 
 - Add the "Detect" filter to any source with an image (Media, Browser, VLC, Image, etc.)
 - Enable "Masking" or "Tracking"
@@ -73,7 +54,7 @@ $ ./.github/scripts/build-macos -c Release
 ```
 
 #### Install
-The above script should succeed and the plugin files (e.g. `obs-ocr.plugin`) will reside in the `./release/Release` folder off of the root. Copy the `.plugin` file to the OBS directory e.g. `~/Library/Application Support/obs-studio/plugins`.
+The above script should succeed and the plugin files (e.g. `obs-ocr.plugin`) will reside in the `./release/Release` folder off of the root. Copy the `.pluging file to the OBS directory e.g. `~/Library/Application Support/obs-studio/plugins`.
 
 To get `.pkg` installer file, run for example
 ```sh
