@@ -1,4 +1,3 @@
-
 # ⚠️ Stalled ⚠️ This project is not under active development
 
 ## OBS Detect - Object Detection and Masking Filter
@@ -54,7 +53,7 @@ $ ./.github/scripts/build-macos -c Release
 ```
 
 #### Install
-The above script should succeed and the plugin files (e.g. `obs-ocr.plugin`) will reside in the `./release/Release` folder off of the root. Copy the `.pluging file to the OBS directory e.g. `~/Library/Application Support/obs-studio/plugins`.
+The above script should succeed and the plugin files (e.g. `obs-ocr.plugin`) will reside in the `./release/Release` folder off of the root. Copy the `.plugin` file to the OBS directory e.g. `~/Library/Application Support/obs-studio/plugins`.
 
 To get `.pkg` installer file, run for example
 ```sh
