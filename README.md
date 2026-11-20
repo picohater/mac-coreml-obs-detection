@@ -1,4 +1,4 @@
-# ⚠️ Stalled ⚠️ This project is not under active development
+# WIP
 
 ## OBS Detect - Object Detection and Masking Filter
 
